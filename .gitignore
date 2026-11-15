@@ -1,0 +1,12 @@
+.dev-brief.md
+.DS_Store
+.gradle/
+.idea/
+.kotlin/
+.local/
+*.iml
+**/build/
+app/build/
+build/
+dev.log
+local.properties

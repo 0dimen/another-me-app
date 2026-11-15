@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="app.anotherme.demo.domain.DecisionEngineTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2026-11-15T11:01:33.264Z" hostname="local" time="0.098">
+  <testcase name="callBlocksEvenWhenParked" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.065" />
+  <testcase name="silenceDiscardsPendingAndCannotBeBypassedByParking" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="routeChangeInvalidatesWaiting" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="fullReplayWaitsThenDeliversOnlyOnce" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.022" />
+  <testcase name="guidanceStillBlocksAfterCallEnds" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="acknowledgementPreventsRepeatedProactiveDelivery" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="cancelledAppointmentClearsWaiting" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="missingEtaCannotPropose" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="askingWithoutDeliveredReplyDoesNotLoseCandidate" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="exactlyOnTimeIsDiscarded" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="unlinkedTaskCannotPropose" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="unknownVehicleStateWaits" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="unknownCallStateWaits" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="bothBusySignalsBlock" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="lateAndAvailableSpeaks" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="onlyLatestPendingSurvives" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="parkingAloneDoesNotCreateHelp" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="unknownGuidanceStateWaits" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="expiredEtaDiscardedBeforeDelivery" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="earlyArrivalIsDiscarded" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="staleSignalsWaitForFreshData" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="newEtaCanBeNewHelpButOldEtaStillStaysSuppressed" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="improvementWhileWaitingClearsPending" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  <testcase name="alreadyAnsweredQuestionDoesNotRepeat" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.001" />
+  <testcase name="midnightUsesAbsoluteMinutes" classname="app.anotherme.demo.domain.DecisionEngineTest" time="0.0" />
+  </testsuite>
